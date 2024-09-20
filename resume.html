@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+        background-color: #f1f2f6;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      .resume-wrapper {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .resume-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+      }
+
+      .header-left h1 {
+        font-size: 32px;
+        color: #007bff;
+        margin-bottom: 10px;
+      }
+
+      .header-left p {
+        font-size: 18px;
+        color: #555;
+      }
+
+      .header-right p {
+        font-size: 16px;
+        color: #666;
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .resume-section h2 {
+        font-size: 22px;
+        color: #333;
+        border-left: 4px solid #007bff;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      }
+
+      .skills-grid {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+
+      .skill-item {
+        background: #f1f2f6;
+        padding: 15px;
+        border-radius: 6px;
+        width: calc(33.33% - 10px);
+        font-size: 16px;
+        color: #007bff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .skill-item i {
+        margin-right: 10px;
+      }
+
+      .education-item {
+        margin-bottom: 15px;
+      }
+
+      .education-item h1 {
+        font-size: 22px;
+        color: #007bff;
+        margin-bottom: 5px;
+      }
+
+      .year {
+        color: #666;
+        font-size: 16px;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+        font-size: 16px;
+      }
+
+      .references-list strong {
+        font-size: 16px;
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume-wrapper">
+      <header class="resume-header">
+        <div class="hero-section">
+          <h1>Axle-John DG. Jebulan</h1>
+          <p>Information Technology</p>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> 0945-887-4613</p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:jebulanaxlejohn29@gmail.com"
+              >jebulanaxlejohn29@gmail.com</a
+            >
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 185 Marungko Angat, Bulacan
+          </p>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <section class="left-column">
+          <div class="resume-section">
+            <h2>Objective</h2>
+            <p>
+              An adaptable and highly organized IT professional, seeking to
+              contribute my skills in a forward-thinking organization while
+              expanding my knowledge and delivering excellence.
+            </p>
+          </div>
+
+          <div class="resume-section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+              <li><i class="fas fa-check-circle"></i> Organized & Efficient</li>
+              <li><i class="fas fa-clock"></i> Excellent Time Management</li>
+              <li><i class="fas fa-sync"></i> Adaptability & Flexibility</li>
+            </ul>
+          </div>
+
+          <div class="resume-section">
+            <h2>Education</h2>
+            <div class="education-item">
+              <h1>TERTIARY</h1>
+              <h3>Bachelor of Science in Information Technology</h3>
+              <p>
+                Baliwag Polytechnic College
+                <span>(2021 - Present)</span>
+              </p>
+              <p>Brgy. Poblacion Baliuag, Bulacan</p>
+            </div>
+            <div class="education-item">
+              <h1>SECONDARY LEVEL</h1>
+              <h3>General Academics Strand</h3>
+              <p>
+                St. Joseph Kalinangan Integrated School
+                <span>(2020 - 2021)</span>
+              </p>
+              <p>Sulucan, Angat, Bulacan</p>
+            </div>
+            <div class="education-item">
+              <h1>PRIMARY LEVEL</h1>
+              <h3>Dr. Antonio C. Villarama Memorial School</h3>
+              <p>
+                St. Joseph Kalinangan Integrated School
+                <span>(2010 - 2015)</span>
+              </p>
+              <p>Marungkp, Angat, Bulacan</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-column">
+          <div class="resume-section">
+            <h2>Personal Information</h2>
+            <ul class="personal-info">
+              <li><strong>Date of Birth:</strong> October 16, 2003</li>
+              <li><strong>Place of Birth:</strong> Makati City</li>
+              <li><strong>Age:</strong> 17 years old</li>
+              <li><strong>Height:</strong> 5'8"</li>
+              <li><strong>Weight:</strong> 63 kg</li>
+              <li><strong>Religion:</strong> Catholic</li>
+              <li><strong>Nationality:</strong> Filipino</li>
+              <li><strong>Civil Status:</strong> Single</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
